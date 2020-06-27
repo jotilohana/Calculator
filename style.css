@@ -1,0 +1,31 @@
+body{
+    background-color: #CD5C5C;
+}
+
+.main{
+    width: 250px;
+    margin: 150px auto;
+    border: 12px solid black;
+    padding: 20px;
+    border-radius: 20%;
+}
+.result{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.input_btn,.clear_btn{
+    width: 21%;
+    background-color: grey;
+    border: 0;
+    height: 25px;
+    margin: 2px auto;
+    color: white;
+    border-radius: 25%;
+
+}
+.input_btn{
+    margin: 2px;
+}

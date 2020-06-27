@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <input id="input" class="result" type="text">
+        </div>
+        <div>
+            <button onclick="clear_result()" class="clear_btn">C</button>
+        </div>
+        <div>
+            <button class="input_btn" onclick="getInput('7')">7</button>
+            <button class="input_btn" onclick="getInput('8')">8</button>
+            <button class="input_btn" onclick="getInput('9')">9</button>
+            <button class="input_btn" onclick="getInput('*')">X</button>
+        </div>
+        <div>
+            <button class="input_btn" onclick="getInput('4')">4</button>
+            <button class="input_btn" onclick="getInput('5')">5</button>
+            <button class="input_btn" onclick="getInput('6')">6</button>
+            <button class="input_btn" onclick="getInput('-')">-</button>
+        </div>
+        <div>
+            <button class="input_btn" onclick="getInput('1')">1</button>
+            <button class="input_btn" onclick="getInput('2')">2</button>
+            <button class="input_btn" onclick="getInput('3')">3</button>
+            <button class="input_btn" onclick="getInput('+')">+</button>
+        </div>
+        <div>
+            <button class="input_btn" onclick="getInput('0')">0</button>
+            <button class="input_btn" onclick="getInput('(')">(</button>
+            
+            <button class="input_btn" onclick="getInput(')')">)</button>
+            <button onclick="Output()" class="input_btn">=</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
